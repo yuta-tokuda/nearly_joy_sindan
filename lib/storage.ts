@@ -1,5 +1,5 @@
-const ANSWERS_KEY = "equal-love-diagnosis-answers";
-const ANSWERS_EVENT = "equal-love-answers-updated";
+const ANSWERS_KEY = "nearly-joy-diagnosis-answers";
+const ANSWERS_EVENT = "nearly-joy-answers-updated";
 const EMPTY_ANSWERS: number[] = [];
 
 let cachedRaw: string | null | undefined = undefined;
