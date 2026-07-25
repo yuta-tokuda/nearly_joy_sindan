@@ -9,8 +9,8 @@ export const members = [
     color: "#B695FF",
     songs: [
       { title: "≒JOY", youtubeUrl: "https://www.youtube.com/watch?v=2nOHrLolG08" },
-      { title: "超孤独ライオン", youtubeUrl: "https://www.youtube.com/watch?v=eqnR95RJCvA" },
-      { title: "「僕たちの歌」", youtubeUrl: "https://www.youtube.com/watch?v=ORhAyi3s4ls" },
+      { title: "超孤独ライオン", youtubeUrl: "https://www.youtube.com/watch?v=Ry9UCc9H3nw" },
+      { title: "「僕たちの歌」", youtubeUrl: "https://www.youtube.com/watch?v=CJkYd5B0NV0" },
     ],
     profile: {
       reading: "あいだ じゅりい",
@@ -35,8 +35,8 @@ export const members = [
       "しなやかな感性とやさしい空気感を持つタイプ。細やかな気配りで、自然に周囲を明るくできる存在。",
     color: "#FFA68A",
     songs: [
-      { title: "きっと、絶対、絶対", youtubeUrl: "https://www.youtube.com/watch?v=xN6jM9h8AqY" },
-      { title: "スイートシックスティーン", youtubeUrl: "https://www.youtube.com/watch?v=hxQ3E0Yxj3A" },
+      { title: "きっと、青い", youtubeUrl: "https://www.youtube.com/watch?v=gQ81Vl0OBlQ" },
+      { title: "スイートシックスティーン", youtubeUrl: "https://www.youtube.com/watch?v=GuvkL9Gz9P0" },
       { title: "サマーツインテール", youtubeUrl: "https://www.youtube.com/watch?v=wO2z79qqB1Y" },
     ],
     profile: {
@@ -62,8 +62,8 @@ export const members = [
       "華やかな存在感とコミュニケーション力が強み。前向きな言葉で空気を温めるムードメーカータイプ。",
     color: "#A46BFF",
     songs: [
-      { title: "体育館ディスコ", youtubeUrl: "https://www.youtube.com/watch?v=UvqtfH8UQ3A" },
-      { title: "初恋シンデレラ", youtubeUrl: "https://www.youtube.com/watch?v=4N4j7tL9W4A" },
+      { title: "体育館ディスコ", youtubeUrl: "https://www.youtube.com/watch?v=pwT02lNsloU" },
+      { title: "初恋シンデレラ", youtubeUrl: "https://www.youtube.com/watch?v=Vgwuc0C9UoQ" },
       { title: "ノンフィクション", youtubeUrl: "https://www.youtube.com/watch?v=TCYJnm0oIfY" },
     ],
     profile: {
@@ -90,8 +90,8 @@ export const members = [
     color: "#4B78FF",
     songs: [
       { title: "大空、ビュンと", youtubeUrl: "https://www.youtube.com/watch?v=pCd1pWJW2SU" },
-      { title: "笑って フラジール", youtubeUrl: "https://www.youtube.com/watch?v=YbdEmldlNQ8" },
-      { title: "無謀人", youtubeUrl: "https://www.youtube.com/watch?v=U7Yv_rY9A2I" },
+      { title: "笑って フラジール", youtubeUrl: "https://www.youtube.com/watch?v=YCbV-2dCyiM" },
+      { title: "無謀人", youtubeUrl: "https://www.youtube.com/watch?v=qUzXtUsVgH8" },
     ],
     profile: {
       reading: "えすみ れのん",
@@ -116,9 +116,9 @@ export const members = [
       "丁寧な努力と安定感が魅力。細部へのこだわりで、完成度の高い表現を積み重ねるタイプ。",
     color: "#74D5FF",
     songs: [
-      { title: "今日も君の夢を見たんだ", youtubeUrl: "https://www.youtube.com/watch?v=U7aI2NgRrNg" },
-      { title: "夢見る♡アイドル", youtubeUrl: "https://www.youtube.com/watch?v=7O4YQvP5hW0" },
-      { title: "アマガミガール feat. DJ ALICE", youtubeUrl: "https://www.youtube.com/watch?v=5f7ueY8xVmE" },
+      { title: "今日も君の夢を見たんだ", youtubeUrl: "https://www.youtube.com/watch?v=2ltZx6FkU4w" },
+      { title: "夢見る♡アイドル", youtubeUrl: "https://www.youtube.com/watch?v=8BG1qeZyuWk" },
+      { title: "アマガミガール feat. DJ ALICE", youtubeUrl: "https://www.youtube.com/watch?v=QyhExt2Q8p8" },
     ],
     profile: {
       reading: "おおしだ みつき",
@@ -143,9 +143,9 @@ export const members = [
       "しなやかな強さと挑戦心を持つタイプ。明るい存在感で場を前向きに引っ張るエネルギッシュなメンバー。",
     color: "#F7F8FA",
     songs: [
-      { title: "その先はイグザルト", youtubeUrl: "https://www.youtube.com/watch?v=uFXKg7fYvTo" },
-      { title: "Sweetest girl", youtubeUrl: "https://www.youtube.com/watch?v=GmQFh2gxYJ8" },
-      { title: "電話番号教えて！", youtubeUrl: "https://www.youtube.com/watch?v=0mjrWvm01vQ" },
+      { title: "その先はイグザルト", youtubeUrl: "https://www.youtube.com/watch?v=x68AnwPpT-s" },
+      { title: "Sweetest girl", youtubeUrl: "https://www.youtube.com/watch?v=TA0oDNGCFHQ" },
+      { title: "電話番号教えて！", youtubeUrl: "https://www.youtube.com/watch?v=KZ0_Q66AgLk" },
     ],
     profile: {
       reading: "おおにし あおい",
@@ -170,9 +170,9 @@ export const members = [
       "キレのあるパフォーマンスと存在感が魅力。目標に向かって熱量高く走り続けるアクティブタイプ。",
     color: "#FFD34D",
     songs: [
-      { title: "体育館ディスコ", youtubeUrl: "https://www.youtube.com/watch?v=UvqtfH8UQ3A" },
-      { title: "笑って フラジール", youtubeUrl: "https://www.youtube.com/watch?v=YbdEmldlNQ8" },
-      { title: "「僕たちの歌」", youtubeUrl: "https://www.youtube.com/watch?v=ORhAyi3s4ls" },
+      { title: "体育館ディスコ", youtubeUrl: "https://www.youtube.com/watch?v=pwT02lNsloU" },
+      { title: "笑って フラジール", youtubeUrl: "https://www.youtube.com/watch?v=YCbV-2dCyiM" },
+      { title: "「僕たちの歌」", youtubeUrl: "https://www.youtube.com/watch?v=CJkYd5B0NV0" },
     ],
     profile: {
       reading: "おざわ あいみ",
@@ -197,7 +197,7 @@ export const members = [
       "華やかな笑顔と芯の強さが光るタイプ。明るさの中に誠実さがあり、周囲をポジティブに巻き込む存在。",
     color: "#FF934D",
     songs: [
-      { title: "笑って フラジール", youtubeUrl: "https://www.youtube.com/watch?v=YbdEmldlNQ8" },
+      { title: "笑って フラジール", youtubeUrl: "https://www.youtube.com/watch?v=YCbV-2dCyiM" },
       { title: "サマーツインテール", youtubeUrl: "https://www.youtube.com/watch?v=wO2z79qqB1Y" },
       { title: "ノンフィクション", youtubeUrl: "https://www.youtube.com/watch?v=TCYJnm0oIfY" },
     ],
@@ -224,9 +224,9 @@ export const members = [
       "落ち着きと柔らかさを兼ね備えたタイプ。丁寧な積み重ねで、じわじわと信頼を集める存在。",
     color: "#6DD572",
     songs: [
-      { title: "超孤独ライオン", youtubeUrl: "https://www.youtube.com/watch?v=eqnR95RJCvA" },
+      { title: "超孤独ライオン", youtubeUrl: "https://www.youtube.com/watch?v=Ry9UCc9H3nw" },
       { title: "大空、ビュンと", youtubeUrl: "https://www.youtube.com/watch?v=pCd1pWJW2SU" },
-      { title: "今日も君の夢を見たんだ", youtubeUrl: "https://www.youtube.com/watch?v=U7aI2NgRrNg" },
+      { title: "今日も君の夢を見たんだ", youtubeUrl: "https://www.youtube.com/watch?v=2ltZx6FkU4w" },
     ],
     profile: {
       reading: "ふじさわ りこ",
@@ -251,9 +251,9 @@ export const members = [
       "しっかり者のバランス感覚とまっすぐな誠実さが魅力。周囲を見ながら丁寧に前へ進めるサポートタイプ。",
     color: "#F15757",
     songs: [
-      { title: "初恋シンデレラ", youtubeUrl: "https://www.youtube.com/watch?v=4N4j7tL9W4A" },
-      { title: "電話番号教えて！", youtubeUrl: "https://www.youtube.com/watch?v=0mjrWvm01vQ" },
-      { title: "その先はイグザルト", youtubeUrl: "https://www.youtube.com/watch?v=uFXKg7fYvTo" },
+      { title: "初恋シンデレラ", youtubeUrl: "https://www.youtube.com/watch?v=Vgwuc0C9UoQ" },
+      { title: "電話番号教えて！", youtubeUrl: "https://www.youtube.com/watch?v=KZ0_Q66AgLk" },
+      { title: "その先はイグザルト", youtubeUrl: "https://www.youtube.com/watch?v=x68AnwPpT-s" },
     ],
     profile: {
       reading: "むらやま ゆうか",
