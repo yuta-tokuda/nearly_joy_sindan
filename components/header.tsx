@@ -7,7 +7,7 @@ export const Header = () => {
         href="/"
         className="inline-flex items-baseline gap-2 transition-opacity hover:opacity-80"
       >
-        <span className="font-display text-base tracking-wide text-primary">=LOVE</span>
+        <span className="font-display text-base tracking-wide text-primary">≒JOY</span>
         <span className="text-[11px] font-medium text-muted-foreground">推し診断</span>
       </Link>
     </header>

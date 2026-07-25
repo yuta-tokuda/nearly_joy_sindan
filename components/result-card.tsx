@@ -19,7 +19,7 @@ const SnsLink = ({ href, label }: { href: string; label: string }) => (
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-white/90 px-3 py-2 text-sm font-medium text-foreground transition-all hover:border-primary/40 hover:bg-[oklch(0.97_0.03_12)]"
+    className="inline-flex items-center gap-1.5 rounded-xl border border-primary/20 bg-white/90 px-3 py-2 text-sm font-medium text-foreground transition-all hover:border-primary/40 hover:bg-[oklch(0.98_0.05_98)]"
   >
     {label}
     <ExternalLink className="size-3.5 text-primary/60" aria-hidden />
@@ -34,7 +34,7 @@ const MemberProfileSection = ({ member }: { member: Member }) => {
       <div className="space-y-2">
         <p className="text-sm font-bold text-foreground">プロフィール</p>
         <p className="text-sm leading-7 text-muted-foreground">{member.description}</p>
-        <dl className="space-y-2.5 rounded-2xl bg-[oklch(0.97_0.025_12)] p-4">
+        <dl className="space-y-2.5 rounded-2xl bg-[oklch(0.98_0.035_98)] p-4">
           <ProfileRow label="読み方" value={profile.reading} />
           <ProfileRow label="愛称" value={profile.nickname} />
           <ProfileRow label="生年月日" value={profile.birthday} />
@@ -53,7 +53,7 @@ const MemberProfileSection = ({ member }: { member: Member }) => {
       <div className="space-y-2">
         <p className="text-sm font-bold text-foreground">SNS・公式</p>
         <div className="flex flex-wrap gap-2">
-          <SnsLink href={sns.x} label="X" />
+          {sns.x ? <SnsLink href={sns.x} label="X" /> : null}
           <SnsLink href={sns.instagram} label="Instagram" />
           <SnsLink href={officialUrl} label="公式プロフィール" />
         </div>
@@ -82,7 +82,7 @@ export const ResultCard = ({ result }: ResultCardProps) => {
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-5">
-        <div className="rounded-2xl bg-gradient-to-br from-[oklch(0.96_0.04_12)] to-[oklch(0.97_0.03_200)] p-4 text-center">
+        <div className="rounded-2xl bg-gradient-to-br from-[oklch(0.96_0.07_96)] to-[oklch(0.98_0.05_84)] p-4 text-center">
           <p className="text-xs font-medium text-muted-foreground">一致率</p>
           <p className="mt-1 font-display text-4xl text-primary">{result.matchRate}%</p>
         </div>
@@ -95,12 +95,12 @@ export const ResultCard = ({ result }: ResultCardProps) => {
         <MemberProfileSection member={result.topMember} />
 
         <div className="space-y-2">
-          <p className="text-sm font-bold text-foreground">センター曲・ソロ曲</p>
+          <p className="text-sm font-bold text-foreground">おすすめ楽曲</p>
           <ul className="space-y-1.5 text-sm text-foreground">
             {result.topMember.songs.map((song) => (
               <li
                 key={song.title}
-                className="flex items-center justify-between gap-2 rounded-xl bg-[oklch(0.97_0.025_12)] px-3 py-2"
+                className="flex items-center justify-between gap-2 rounded-xl bg-[oklch(0.98_0.035_98)] px-3 py-2"
               >
                 <span>{song.title}</span>
                 {song.youtubeUrl ? (

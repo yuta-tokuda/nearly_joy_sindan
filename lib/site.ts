@@ -16,7 +16,7 @@ export const getSiteUrl = () => {
   return "http://localhost:3000";
 };
 
-export const SITE_NAME = "=LOVE 推し診断";
-export const SITE_ALTERNATE_NAME = "イコラブ診断";
+export const SITE_NAME = "≒JOY 推し診断";
+export const SITE_ALTERNATE_NAME = "ニアジョイ診断";
 export const SITE_DESCRIPTION =
-  "質問に答えるだけであなたにぴったりの=LOVEメンバーが分かる非公式診断サイト";
+  "質問に答えるだけであなたにぴったりの≒JOYメンバーが分かる非公式診断サイト";

@@ -1,5 +1,5 @@
 export type MemberSns = {
-  x: string;
+  x?: string;
   instagram: string;
 };
 
