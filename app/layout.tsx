@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     url: "/",
     images: [
       {
-        url: "/og-top.png",
+        url: "/opengraph-image",
         alt: `${SITE_NAME} TOP画面`,
       },
     ],
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    images: ["/og-top.png"],
+    images: ["/opengraph-image"],
   },
 };
 
