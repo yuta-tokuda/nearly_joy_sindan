@@ -56,6 +56,19 @@ pnpm start   # 本番サーバー起動
 pnpm lint    # ESLint 実行
 ```
 
+### アナリティクス設定
+
+このプロジェクトは `@vercel/analytics` と `@vercel/speed-insights` を有効化済みです。  
+加えて、Google Analytics 4（GA4）は環境変数を設定すると有効になります。
+
+`.env.local` を作成して以下を追加してください。
+
+```bash
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+```
+
+`NEXT_PUBLIC_GA_ID` が未設定の場合、GA4スクリプトは読み込まれません。
+
 ## プロジェクト構成（抜粋）
 
 ```text

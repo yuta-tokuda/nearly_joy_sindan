@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Mochiy_Pop_One, Zen_Maru_Gothic } from "next/font/google";
 
 import { Footer } from "@/components/footer";
@@ -29,6 +30,7 @@ const mochiy = Mochiy_Pop_One({
 });
 
 const siteUrl = getSiteUrl();
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -83,6 +85,7 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
         <Header />
         <main className="mx-auto w-full max-w-md flex-1 px-4 py-4">{children}</main>
         <Footer />
+        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
         <Analytics />
         <SpeedInsights />
       </body>
